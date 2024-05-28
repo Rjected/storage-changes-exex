@@ -1,0 +1,27 @@
+[package]
+name = "storage-changes-exex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# async
+futures = "0.3.30"
+
+# errors
+eyre = "0.6"
+
+# reth
+reth = { git = "https://github.com/paradigmxyz/reth" }
+reth-exex = { git = "https://github.com/paradigmxyz/reth" }
+reth-node-api = { git = "https://github.com/paradigmxyz/reth" }
+reth-node-ethereum = { git = "https://github.com/paradigmxyz/reth" }
+reth-primitives = { git = "https://github.com/paradigmxyz/reth" }
+
+# csv writing
+csv = "1.3"
+
+# hex
+hex = "0.4"
+
+# tracing
+tracing = "0.1.40"
